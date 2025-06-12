@@ -8,7 +8,7 @@ date: 2014-01-01
 location: "Dublin, Ireland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching Assintant for 4C5-Digital Signal Processing. Duties include lab sessions in MATLab and grading of assignments.
 
 Heading 1
 ======
