@@ -1,5 +1,5 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Assistant for Digital Signal Processing"
 collection: teaching
 type: "Undergraduate course"
 permalink: https://www.tcd.ie/media/tcd/elecengineering/pdfs/Digital-Signal-Processing.pdf
