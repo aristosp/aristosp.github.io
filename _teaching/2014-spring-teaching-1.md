@@ -1,20 +1,12 @@
 ---
-title: "Teaching Assistant for Digital Signal Processing"
+title: "Teaching Assistant for 4C5 -Digital Signal Processing"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate / Postgraduate course"
 permalink: 
 venue: "Trinity College, Department of Electrical and Electronic Engineering"
-date: 2014-01-01
+date: 2024, 2025
 location: "Dublin, Ireland"
 ---
 
-Teaching Assintant for 4C5-Digital Signal Processing. Duties include lab sessions in MATLab and grading of assignments. Course description can be found in [https://www.tcd.ie/media/tcd/elecengineering/pdfs/Digital-Signal-Processing.pdf].
+Teaching Assintant for 4C5-Digital Signal Processing. Duties include lab sessions in MATLab and grading of assignments. Course description can be found in (link) [https://www.tcd.ie/media/tcd/elecengineering/pdfs/Digital-Signal-Processing.pdf].
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
