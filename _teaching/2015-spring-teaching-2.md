@@ -2,7 +2,7 @@
 title: "Teaching Assistant for 2E12 - Computational Science & Engineering"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2e12
+permalink: /teaching/2e12/
 venue: "Trinity College, Department of Electrical and Electronic Engineering"
 date: 2025
 location: "Dublin, IE"
