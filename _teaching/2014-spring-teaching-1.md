@@ -8,5 +8,5 @@ date: 2024-01-01, 2025-01-01
 location: "Dublin, Ireland"
 ---
 
-Teaching Assintant for 4C5-Digital Signal Processing. Duties include lab sessions in MATLab and grading of assignments. Course description can be found in (link) [https://www.tcd.ie/media/tcd/elecengineering/pdfs/Digital-Signal-Processing.pdf].
+Teaching Assintant for 4C5-Digital Signal Processing. Duties include lab sessions in MATLab and grading of assignments. Course description can be found in (link)[https://www.tcd.ie/media/tcd/elecengineering/pdfs/Digital-Signal-Processing.pdf].
 
