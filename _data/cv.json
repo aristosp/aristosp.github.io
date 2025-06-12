@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Aristeidis Papadopoulos",
+    "email": "papadoar@tcd.ie, aristidis682@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
+    "website": "https://aristosp.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Dublin",
+      "countryCode": "IE",
       "region": ""
     },
     "profiles": [
