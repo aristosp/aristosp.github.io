@@ -2,7 +2,7 @@
 title: "Teaching Assistant for 4C5 -Digital Signal Processing"
 collection: teaching
 type: "Undergraduate / Postgraduate course"
-permalink: 
+permalink: /teaching/4c5
 venue: "Trinity College, Department of Electrical and Electronic Engineering"
 date: 2024-01-01, 2025-01-01
 location: "Dublin, Ireland"
