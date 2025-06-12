@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching Assistant for 2E12 - Computational Science & Engineering"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate course"
+permalink: /teaching/2e12
+venue: "Trinity College, Department of Electrical and Electronic Engineering"
+date: 2025
+location: "Dublin, IE"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Teaching assistant for 2e12 - Computational Science & Engineering. Duties include lab sessions in MATLab and grading of assignments. Course description can be found in [link](https://www.tcd.ie/media/tcd/engineering/pdfs/current-students/EEU22E12-2025.26.pdf)
