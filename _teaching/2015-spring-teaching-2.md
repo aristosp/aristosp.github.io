@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2e12/
 venue: "Trinity College, Department of Electrical and Electronic Engineering"
-date: 2025
+date: 2025-01-01
 location: "Dublin, IE"
 ---
 
