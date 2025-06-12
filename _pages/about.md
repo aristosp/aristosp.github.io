@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Aristeidis Papadopoulos /| Trinity College Dublin"
+title: "Aristeidis Papadopoulos - Trinity College Dublin"
 author_profile: true
 redirect_from: 
   - /about/
