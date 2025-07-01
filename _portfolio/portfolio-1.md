@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Indoor Sound Classification"
+excerpt: "Thesis Project <br/><img src='/images/thesis_1.png'>"
 collection: portfolio
 ---
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+A requirement for my Integrated MEng. Indoor Sound Classification consists of the classification of 9 different home activities, such as using the vacuum cleaner or eating. An extensive research was conducted, resulting in many different models, beginning with 1D Convolutional Models, 2D Convolutional Models, an ensemble and finally a Vision Transformer Model. The dataset used is the [DCASE Task 5](https://dcase.community/challenge2018/task-monitoring-domestic-activities).
+Due to the high computational power needed to classify the original audio files, the sounds are converted to MFCC or spectrograms. Before the conversion is made, preprocessing the audio files is necessary.
