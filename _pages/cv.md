@@ -11,25 +11,14 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Neural Architectures for Multi-modal Speech Recognition, Trinity College Dublin, 2028 (expected)
-* Integrated MEng in Electrical & Computer Engineering, Democritus University of Thrace, Greece, 2022
+* Ph.D in Neural Architectures for Multi-modal Speech Recognition, Trinity College Dublin, 2024-2028 (expected)
+* Integrated MEng in Electrical & Computer Engineering, Democritus University of Thrace, Greece, 2017-2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Nov. 2022 - Aug. 2023: Private at Research & Informatics Corp.
+  * 23rd Armored Brigade - Alexandroupolis, GR
+  * Duties included: Technical support services, website administrator, networks setup, hardware and software management
   
 Skills
 ======
@@ -57,7 +46,8 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+<!---
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
