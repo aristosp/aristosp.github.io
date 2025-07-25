@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+A pdf version of my CV can be found [here](http://aristosp.github.io/files/25_7_2025_One_Column_CV.pdf)
+
 Education
 ======
 * Ph.D in Neural Architectures for Multi-modal Speech Recognition, Trinity College Dublin, 2024-2028 (expected)
