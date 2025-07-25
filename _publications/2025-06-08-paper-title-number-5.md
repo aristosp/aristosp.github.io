@@ -1,13 +1,12 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Interpreting the Role of Visemes in Audio-Visual Speech Recognition"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
+excerpt: 'Audio-Visual Speech Recognition (AVSR) models have surpassed their audio-only counterparts in terms of performance. However, the interpretability of AVSR systems, particularly the role of the visual modality, remains under-explored. In this paper, we apply several interpretability techniques to examine how visemes are encoded in AV-HuBERT a state-of-the-art AVSR model. First, we use t-distributed Stochastic Neighbour Embedding (t-SNE) to visualize learned features, revealing natural clustering driven by visual cues, which is further refined by the presence of audio. Then, we employ probing to show how audio contributes to refining feature representations, particularly for visemes that are visually ambiguous or under-represented. Our findings shed light on the interplay between modalities in AVSR and could point to new strategies for leveraging visual information to improve AVSR performance.'
+date: 2025-12-06
+venue: 'Automatic Speech Recognition & Understanding (ASRU) 2025 Proceedings'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: 'Papadopoulos A. and Harte N. (2025) Interpreting the Role of Visemes in Audio-Visual Speech Recognition'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
