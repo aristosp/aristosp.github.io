@@ -18,7 +18,7 @@ Work experience
 ======
 * Nov. 2022 - Aug. 2023: Private at Research & Informatics Corp.
   * 23rd Armored Brigade - Alexandroupolis, GR
-  * Duties included: Technical support services, website administrator, networks setup, hardware and software management
+  * Duties included: Technical support services, website administrator, network setup, hardware and software management
   
 Skills
 ======
