@@ -22,12 +22,20 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Soft skills
+  *  Adaptability
+  *  Quick Learner
+  *  Teamwork
+  *  Communication
+  *  Analytical Thinking
+* Languages
+  * Python
+  * MATLAB
+  * C
+* Technologies
+  * Tensorflow, Pytorch
+  * VSCode, Atom
+  * LaTeX   
 
 Publications
 ======
