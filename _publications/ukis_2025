@@ -2,7 +2,7 @@
 title: "What does an Audio-Visual Speech Recognition Model know about Visemes?"
 collection: publications
 category: conferences
-permalink: http://aristosp.github.io/files/UKIS_2025_Aristeidis_Papadopoulos_v2.pdf
+permalink: /files/UKIS_2025_Aristeidis_Papadopoulos_v2.pdf
 excerpt: 'Phonemes are the basic speech unit with numerous studies exploring the inner workings of end-to-end transformer-based speech models, but they have mainly focused on Audio Speech Recognition (ASR). These studies have shown that there is significant phoneme capturing and encoding within the encoderlayers. The methodologies found in the literature include probing and the use of similarity measures, among others. Considerably less investigation into the interpretability of Audio-Visual Speech Recognition (AVSR) models has been done. In particular, no work has explored what AVSR models learn about visemes, the visual equivalent of phonemes. Our work therefore utilizes the concepts developed for ASR and applies them to AV-HuBERT, where a thorough analysis is performed to establish what the model learns about visemes.'
 date: 2025-06-17
 venue: 'UK & Ireland Speech Workshop 2025 Book of Abstracts'
