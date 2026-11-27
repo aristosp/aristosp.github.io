@@ -1,0 +1,61 @@
+---
+import "../styles/global.css";
+import { site, navigation } from "@/data/site";
+const { title = site.name, description = site.description } = Astro.props;
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#080d17" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="/" aria-label={`${site.name} home`}>
+          <span class="brand-mark">AP</span><span>{site.name}</span>
+        </a>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+          {navigation.map((item) => <a href={item.href} aria-current={path === item.href ? "page" : undefined}>{item.label}</a>)}
+        </nav>
+        <div class="nav-actions">
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme">◐</button>
+          <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+        </div>
+      </div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© {new Date().getFullYear()} {site.name}</span>
+        <span>Built with Astro · Hosted on GitHub Pages</span>
+        <a href={site.links.github} target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </footer>
+    <script>
+      const root = document.documentElement;
+      const saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") root.dataset.theme = saved;
+      document.querySelector("#theme-toggle")?.addEventListener("click", () => {
+        const next = root.dataset.theme === "dark" ? "light" : "dark";
+        root.dataset.theme = next;
+        localStorage.setItem("theme", next);
+      });
+      const menu = document.querySelector("#menu-toggle");
+      const nav = document.querySelector("#primary-navigation");
+      menu?.addEventListener("click", () => {
+        const open = nav?.classList.toggle("open") ?? false;
+        menu.setAttribute("aria-expanded", String(open));
+      });
+    </script>
+  </body>
+</html>

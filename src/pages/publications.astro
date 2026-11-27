@@ -1,0 +1,17 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { site } from "@/data/site";
+import { publications } from "@/data/content";
+---
+<BaseLayout title={`Publications | ${site.name}`}>
+  <div class="container">
+    <header class="page-intro"><span class="eyebrow">Publications</span><h1 class="page-title">Publications</h1>
+      <p>Research on audio-visual speech recognition, viseme representations and multimodal model analysis. See also my <a class="inline-link" href={site.links.scholar} target="_blank" rel="noreferrer">Google Scholar profile</a>.</p>
+    </header>
+    <section class="content-list">{publications.map((paper) => <article class="content-card publication-card" id={paper.slug}>
+      <span class="content-meta">{paper.year} · {paper.type}</span><h2>{paper.title}</h2><p class="paper-authors">{paper.authors}</p><p class="paper-venue">{paper.venue} · {paper.date}</p><p>{paper.summary}</p>
+      <div class="hero-actions">{paper.paper && <a class="text-link" href={paper.paper} target="_blank" rel="noreferrer">Read paper / abstract ↗</a>}</div>
+      <details><summary>Show citation</summary><p class="citation">{paper.citation}</p></details>
+    </article>)}</section>
+  </div>
+</BaseLayout>

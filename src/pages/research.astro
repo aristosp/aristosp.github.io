@@ -1,0 +1,17 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { site } from "@/data/site";
+import { researchAreas, publications } from "@/data/content";
+---
+<BaseLayout title={`Research | ${site.name}`}>
+  <div class="container">
+    <header class="page-intro"><span class="eyebrow">Research</span><h1 class="page-title">Research interests</h1>
+      <p>My research focuses on neural architectures for multimodal speech recognition, with particular attention to the role of visual speech information and how it is represented by deep learning models.</p>
+    </header>
+    <section class="content-list">{researchAreas.map((area) => <article class="content-card">
+      <span class="content-meta">Research area {area.number}</span><h2>{area.title}</h2><p>{area.description}</p><div class="tags">{area.tags.map(tag => <span class="tag">{tag}</span>)}</div>
+    </article>)}</section>
+    <header class="sub-intro"><span class="eyebrow">Related work</span><h2>Research in practice</h2></header>
+    <section class="content-list">{publications.map((paper) => <article class="content-card"><span class="content-meta">{paper.year} · {paper.type}</span><h2>{paper.title}</h2><p>{paper.summary}</p><a class="text-link" href="/publications/">Publication details ↗</a></article>)}</section>
+  </div>
+</BaseLayout>
