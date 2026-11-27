@@ -19,7 +19,7 @@ The AcademicPages demo publications, demo talks, sample blog posts and placehold
 
 ## Run locally
 
-Requires Node.js 20.3+ (Node 22 recommended).
+Requires Node.js 22.22.1+ (and npm 10.8.2+); Node 22 is recommended.
 
 ```bash
 npm install

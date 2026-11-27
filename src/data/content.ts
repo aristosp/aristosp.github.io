@@ -21,6 +21,34 @@ export const researchAreas = [
 
 export const publications = [
   {
+    slug: "slt-2026",
+    legacy: "/publication/slt_2026",
+    year: "2026",
+    type: "Conference paper",
+    title: "Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition",
+    authors: "Rishabh Jain, Aristeidis Papadopoulos, Zhaofeng Lin and Naomi Harte",
+    venue: "IEEE Spoken Language Technology Workshop (SLT) 2026",
+    date: "2026",
+    summary: "Introduces Candor-LR, a large-scale conversational audio-visual speech recognition benchmark derived from natural dyadic videoconferences. Its 713.5-hour training set, 10.1-hour validation set and 60.1-hour test set support evaluation and training under realistic conversational conditions; experiments show visual cues contribute more than on scripted benchmarks and Candor-LR training improves cross-domain robustness.",
+    paper: "/files/CANDOR_LR.pdf",
+    localPaper: "/files/CANDOR_LR.pdf",
+    citation: "Jain R., Papadopoulos A., Lin Z. and Harte N. (2026). Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition."
+  },
+  {
+    slug: "icpr-2026",
+    legacy: "/publication/icpr_2026",
+    year: "2026",
+    type: "Conference paper",
+    title: "VisG AV-HuBERT: Viseme Guided AV-HuBERT",
+    authors: "Aristeidis Papadopoulos, R. Jain and N. Harte",
+    venue: "International Conference on Pattern Recognition Proceedings",
+    date: "18 August 2026",
+    summary: "Introduces Viseme-Guided AV-HuBERT, a multi-task fine-tuning framework with auxiliary viseme classification. The supplied abstract reports comparable or improved performance on LRS3, including a word error rate reduction from 13.59% to 6.60% at −10 dB speech noise, and generalisation evaluation on LRS2.",
+    paper: "/files/Visg AV-HuBERT.pdf",
+    localPaper: "/files/Visg AV-HuBERT.pdf",
+    citation: "Papadopoulos A., Jain R. and Harte N. (2026). VisG AV-HuBERT: Viseme Guided AV-HuBERT."
+  },
+  {
     slug: "asru-2025",
     legacy: "/publication/2024-02-17-paper-title-number-4",
     year: "2025",
@@ -47,20 +75,6 @@ export const publications = [
     paper: "/files/UKIS_2025_Aristeidis_Papadopoulos_v2.pdf",
     localPaper: "/files/UKIS_2025_Aristeidis_Papadopoulos_v2.pdf",
     citation: "Papadopoulos, Aristeidis. (2025). What does an Audio-Visual Speech Recognition Model know about Visemes?"
-  },
-  {
-    slug: "icpr-2026",
-    legacy: "/publication/icpr_2026",
-    year: "2026",
-    type: "Conference paper",
-    title: "VisG AV-HuBERT: Viseme Guided AV-HuBERT",
-    authors: "Aristeidis Papadopoulos, R. Jain and N. Harte",
-    venue: "International Conference on Pattern Recognition Proceedings",
-    date: "18 August 2026",
-    summary: "Introduces Viseme-Guided AV-HuBERT, a multi-task fine-tuning framework with auxiliary viseme classification. The supplied abstract reports comparable or improved performance on LRS3, including a word error rate reduction from 13.59% to 6.60% at −10 dB speech noise, and generalisation evaluation on LRS2.",
-    paper: "/files/Visg AV-HuBERT.pdf",
-    localPaper: "/files/Visg AV-HuBERT.pdf",
-    citation: "Papadopoulos A., Jain R. and Harte N. (2026). VisG AV-HuBERT: Viseme Guided AV-HuBERT."
   }
 ];
 
@@ -87,6 +101,14 @@ export const projects = [
 
 export const teaching = [
   {
+    period: "2025-2026",
+    course: "3C1 — Signals and Systems",
+    role: "Teaching Assistant · Undergraduate course",
+    institution: "Trinity College, Department of Electrical and Electronic Engineering",
+    description: "Lab sessions in MATLAB and grading.",
+    url: "https://www.tcd.ie/media/tcd/engineering/pdfs/resources/EEU33C01---Signals-and-Systems---25.26.pdf"
+  },
+  {
     period: "2026",
     course: "5C35 — Advanced Audio Technologies",
     role: "Teaching Assistant · Undergraduate/Postgraduate course",
@@ -95,7 +117,7 @@ export const teaching = [
     url: "https://www.tcd.ie/media/tcd/engineering/pdfs/resources/EEP55C35-Advanced-Audio-Technologies.pdf"
   },
   {
-    period: "2025",
+    period: "2025-2026",
     course: "2E12 — Computational Science & Engineering",
     role: "Teaching Assistant · Undergraduate course",
     institution: "Trinity College, Department of Electrical and Electronic Engineering",
@@ -103,7 +125,7 @@ export const teaching = [
     url: "https://www.tcd.ie/media/tcd/engineering/pdfs/current-students/EEU22E12-2025.26.pdf"
   },
   {
-    period: "2025",
+    period: "2025-2026",
     course: "4C16/5C16 — Deep Learning and Its Applications",
     role: "Teaching Assistant · Undergraduate/Postgraduate course",
     institution: "Trinity College, Department of Electrical and Electronic Engineering",
@@ -111,7 +133,7 @@ export const teaching = [
     url: "https://www.tcd.ie/media/tcd/engineering/pdfs/resources/EE5C16.EEU44C16---Deep-Learning---25.26.pdf"
   },
   {
-    period: "2025",
+    period: "2025-2026",
     course: "1E6 — Electrical Engineering",
     role: "Teaching Assistant · Undergraduate course",
     institution: "Trinity College, Department of Electrical and Electronic Engineering",
@@ -132,7 +154,7 @@ export const cvSections = [
   {
     title: "Education",
     items: [
-      { period: "2024–2028 (expected)", title: "PhD in Neural Architectures for Multi-modal Speech Recognition", organisation: "Trinity College Dublin" },
+      { period: "2024–2028 (expected)", title: "PhD in Neural Architectures for Multi-modal Speech Recognition", organisation: "Trinity College Dublin, Ireland" },
       { period: "2017–2022", title: "Integrated MEng in Electrical & Computer Engineering", organisation: "Democritus University of Thrace, Greece" }
     ]
   },
@@ -145,7 +167,7 @@ export const cvSections = [
 ];
 
 export const skills = {
-  soft: ["Adaptability", "Quick learner", "Teamwork", "Communication", "Analytical thinking"],
-  programming: ["Python", "MATLAB", "C"],
-  technologies: ["TensorFlow", "PyTorch", "VSCode", "Atom", "LaTeX"]
+  soft: ["Adaptability", "Quick learner", "Teamwork", "Communication", "Analytical thinking", "Problem-solving"],
+  programming: ["Python", "MATLAB", "C", "Bash", "LaTeX"],
+  technologies: ["TensorFlow", "PyTorch", "Keras", "Weights & Biases", "Microsoft Office", "Git"]
 };

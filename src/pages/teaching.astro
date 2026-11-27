@@ -6,7 +6,7 @@ import { teaching } from "@/data/content";
 <BaseLayout title={`Teaching | ${site.name}`}>
   <div class="container">
     <header class="page-intro"><span class="eyebrow">Teaching</span><h1 class="page-title">Teaching experience</h1>
-      <p>Teaching assistant contributions at Trinity College Dublin in electrical engineering, computational science, digital signal processing, deep learning and audio technologies.</p>
+      <p>Teaching assistant contributions at Trinity College Dublin in the Department of Electrical and Electronic Engineering.</p>
     </header>
     <section class="content-list">{teaching.map((item) => <article class="content-card">
       <span class="content-meta">{item.period}</span><h2>{item.course}</h2><p class="paper-venue">{item.role}</p><p>{item.institution}</p><p>{item.description}</p>
