@@ -12,7 +12,7 @@ export const site = {
     github: "https://github.com/aristosp",
     linkedin: "https://www.linkedin.com/in/aristosp/",
     scholar: "https://scholar.google.gr/citations?user=U8fIw0MAAAAJ&hl=el",
-    orcid: "https://orcid.org/0009-0000-3783-2733"
+    orcid: "https://orcid.org/0009-0000-3783-2730"
   },
   profileImage: "/images/profile.jpeg",
   cv: "/files/Aristeidis_Papadopoulos_CV.pdf"
