@@ -15,7 +15,7 @@ export const site = {
     orcid: "https://orcid.org/0009-0000-3783-2733"
   },
   profileImage: "/images/profile.jpeg",
-  cv: "/files/25_7_2025_One_Column_CV.pdf"
+  cv: "/files/Aristeidis_Papadopoulos_CV.pdf"
 };
 
 export const navigation = [
