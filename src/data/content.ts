@@ -166,7 +166,7 @@ export const teaching = [
     url: "https://www.tcd.ie/media/tcd/engineering/pdfs/current-students/EEU11E06---Electrical-Engineering-24.25.pdf"
   },
   {
-    period: "2024–2025",
+    period: "2024–2026",
     course: "4C5 — Digital Signal Processing",
     role: "Teaching Assistant · Undergraduate/Postgraduate course",
     institution: "Trinity College, Department of Electrical and Electronic Engineering",
