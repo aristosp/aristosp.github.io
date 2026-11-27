@@ -53,9 +53,16 @@ This is a user/organization site repository, so it is configured for the domain 
 - Global styling: `src/styles/global.css`
 - Static images and downloadable documents: `public/images/` and `public/files/`
 
+### Examples
+
+- **Add or edit CV experience:** In `src/data/content.ts`, update an item in `cvSections`. For example, add `{ period: "2026–present", title: "Research Fellow", organisation: "Example University" }` to the appropriate section's `items` array. The CV page renders these entries automatically.
+- **Add a publication:** Add an object to `publications` in `src/data/content.ts` with fields such as `year`, `type`, `title`, `authors`, `venue`, `summary` and `citation`. Put a PDF in `public/files/` and set `paper` and `localPaper` to its site path, such as `"/files/example-paper.pdf"`.
+- **Change page wording or structure:** Edit the relevant Astro file under `src/pages/`. For example, the homepage hero text is in `src/pages/index.astro`; content shared with other pages should generally live in `src/data/content.ts`.
+- **Add a downloadable file or image:** Place it in `public/files/` or `public/images/`, then reference it by its root path, such as `"/files/example-cv.pdf"` or `"/images/example-photo.jpg"`. The current CV PDF path is configured as `site.cv` in `src/data/site.ts`.
+
 ## Notes
 
-- The CV page links to the supplied PDF `25_7_2025_One_Column_CV.pdf`.
+- The CV page links to `public/files/Aristeidis_Papadopoulos_CV.pdf`.
 - The ASRU record did not include an actual paper PDF in the source repository, so the redesign does not link the old AcademicPages demo PDF.
 - The talks collection in the supplied repository contains only AcademicPages example entries; those examples are intentionally not displayed.
 - Compatibility routes are static redirect pages. If a URL has meaningful external backlinks, test it after deployment.

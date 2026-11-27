@@ -7,7 +7,7 @@ import { cvSections, skills, publications, teaching } from "@/data/content";
   <div class="container">
     <header class="page-intro"><span class="eyebrow">Curriculum vitae</span><h1 class="page-title">Academic & professional experience</h1>
       <p>Education, employment, research output and teaching experience.</p>
-      <div class="hero-actions"><a class="button button-primary" href={site.cv} target="_blank" rel="noreferrer">Download CV (PDF) ↗</a></div>
+      <div class="hero-actions"><a class="button button-primary" href={site.cv} target="_blank" rel="noreferrer">View full CV (PDF) ↗</a></div>
     </header>
     {cvSections.map((section) => <section class="cv-section"><header class="sub-intro"><span class="eyebrow">Curriculum vitae</span><h2>{section.title}</h2></header>
       <div class="content-list">{section.items.map((item) => <article class="content-card"><span class="content-meta">{item.period}</span><h3>{item.title}</h3><p>{item.organisation}</p>{'description' in item && item.description && <p>{item.description}</p>}</article>)}</div>
