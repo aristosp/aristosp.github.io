@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import AuthorLine from "@/components/AuthorLine.astro";
 import { site } from "@/data/site";
 import { cvSections, skills, publications, teaching } from "@/data/content";
 ---
@@ -16,7 +17,7 @@ import { cvSections, skills, publications, teaching } from "@/data/content";
       <article class="content-card"><h3>Programming languages</h3><div class="tags">{skills.programming.map(x => <span class="tag">{x}</span>)}</div><h3>Technologies</h3><div class="tags">{skills.technologies.map(x => <span class="tag">{x}</span>)}</div><h3>Soft skills</h3><div class="tags">{skills.soft.map(x => <span class="tag">{x}</span>)}</div></article>
     </section>
     <section class="cv-section"><header class="sub-intro"><span class="eyebrow">Academic activity</span><h2>Teaching</h2></header><div class="content-list">{teaching.map((item) => <article class="content-card"><span class="content-meta">{item.period}</span><h3>{item.course}</h3><p>{item.role} · {item.institution}</p></article>)}</div></section>
-    <section class="cv-section"><header class="sub-intro"><span class="eyebrow">Research output</span><h2>Selected publications</h2></header><div class="content-list">{publications.map((paper) => <article class="content-card"><span class="content-meta">{paper.year}</span><h3>{paper.title}</h3><p>{paper.authors} · {paper.venue}</p></article>)}</div></section>
+    <section class="cv-section"><header class="sub-intro"><span class="eyebrow">Research output</span><h2>Selected publications</h2></header><div class="content-list">{publications.map((paper) => <article class="content-card"><span class="content-meta">{paper.year}</span><h3>{paper.title}</h3><p><AuthorLine authors={paper.authors} name={site.name} /> · {paper.venue}</p></article>)}</div></section>
     <p class="muted-note">The downloadable PDF is the CV file supplied in the original website repository. This page presents the structured information available in the website's CV page.</p>
   </div>
 </BaseLayout>

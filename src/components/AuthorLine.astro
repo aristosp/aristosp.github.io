@@ -1,0 +1,8 @@
+---
+const { authors, name } = Astro.props;
+const parts = authors.split(name);
+---
+<span class="author-line">
+  {parts[0]}
+  {parts.length > 1 && <><strong>{name}</strong>{parts.slice(1).join(name)}</>}
+</span>

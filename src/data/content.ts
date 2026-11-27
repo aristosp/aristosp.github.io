@@ -26,12 +26,21 @@ export const publications = [
     year: "2026",
     type: "Conference paper",
     title: "VisG AV-HuBERT: Viseme Guided AV-HuBERT",
-    authors: "Aristeidis Papadopoulos, R. Jain and N. Harte",
+    authors: "Aristeidis Papadopoulos, Rishabh Jain and Naomi Harte",
     venue: "International Conference on Pattern Recognition Proceedings",
     date: "18 August 2026",
     summary: "Introduces Viseme-Guided AV-HuBERT, a multi-task fine-tuning framework with auxiliary viseme classification. The supplied abstract reports comparable or improved performance on LRS3, including a word error rate reduction from 13.59% to 6.60% at −10 dB speech noise, and generalisation evaluation on LRS2.",
     paper: "/files/Visg AV-HuBERT.pdf",
+    code: "https://github.com/aristosp/visg_avhubert",
+    doi: "10.1007/978-3-032-31335-5_45",
     localPaper: "/files/Visg AV-HuBERT.pdf",
+    bibtex: `@inproceedings{papadopoulos2026visg,
+  author = {Papadopoulos, Aristeidis and Jain, Rishabh and Harte, Naomi},
+  title = {VisG AV-HuBERT: Viseme-Guided AV-HuBERT},
+  booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
+  year = {2026},
+  doi = {10.1007/978-3-032-31335-5_45}
+}`,
     citation: "Papadopoulos A., Jain R. and Harte N. (2026). VisG AV-HuBERT: Viseme Guided AV-HuBERT."
   },
   {
@@ -46,6 +55,12 @@ export const publications = [
     summary: "Introduces Candor-LR, a large-scale conversational audio-visual speech recognition benchmark derived from natural dyadic videoconferences. Its 713.5-hour training set, 10.1-hour validation set and 60.1-hour test set support evaluation and training under realistic conversational conditions; experiments show visual cues contribute more than on scripted benchmarks and Candor-LR training improves cross-domain robustness.",
     paper: "/files/CANDOR_LR.pdf",
     localPaper: "/files/CANDOR_LR.pdf",
+    bibtex: `@inproceedings{jain2026candor,
+  author = {Jain, Rishabh and Papadopoulos, Aristeidis and Lin, Zhaofeng and Harte, Naomi},
+  title = {Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition},
+  booktitle = {Proceedings of the IEEE Spoken Language Technology Workshop (SLT)},
+  year = {2026}
+}`,
     citation: "Jain R., Papadopoulos A., Lin Z. and Harte N. (2026). Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition."
   },
   {
@@ -54,12 +69,21 @@ export const publications = [
     year: "2025",
     type: "Conference paper",
     title: "Interpreting the Role of Visemes in Audio-Visual Speech Recognition",
-    authors: "Aristeidis Papadopoulos and N. Harte",
-    venue: "Automatic Speech Recognition & Understanding (ASRU) 2025 Proceedings",
+    authors: "Aristeidis Papadopoulos and Naomi Harte",
+    venue: "IEEE Automatic Speech Recognition & Understanding Workshop (ASRU) 2025",
     date: "6 December 2025",
     summary: "Applies t-SNE visualisation and probing to examine how visemes are encoded in AV-HuBERT. The analysis finds natural clustering driven by visual cues, refined by audio, and investigates how audio contributes particularly for visually ambiguous or under-represented visemes.",
-    paper: null,
-    localPaper: null,
+    paper: "/files/ASRU_2025.pdf",
+    doi: "10.1109/asru65441.2025.11434749",
+    localPaper: "/files/ASRU_2025.pdf",
+    bibtex: `@inproceedings{papadopoulos2025visemes,
+  author = {Papadopoulos, Aristeidis and Harte, Naomi},
+  title = {Interpreting the Role of Visemes in Audio-Visual Speech Recognition},
+  booktitle = {Proceedings of the IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
+  year = {2025},
+  pages = {1--8},
+  doi = {10.1109/ASRU65441.2025.11434749}
+}`,
     citation: "Papadopoulos A. and Harte N. (2025). Interpreting the Role of Visemes in Audio-Visual Speech Recognition."
   },
   {
@@ -85,6 +109,7 @@ export const projects = [
     description: "Classification of nine domestic activities using the DCASE Task 5 dataset. The project explored 1D and 2D convolutional models, an ensemble and a Vision Transformer. Audio was preprocessed and represented as MFCCs or spectrograms for modelling.",
     tags: ["Audio classification", "MFCC", "Spectrograms", "Vision Transformer"],
     github: "https://github.com/aristosp/Indoor-Sound-Classification",
+    thesis: "/files/Latex_thesis__English_.pdf",
     image: "/images/thesis_1.png",
     featured: true
   },

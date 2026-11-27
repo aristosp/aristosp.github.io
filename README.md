@@ -63,7 +63,7 @@ This is a user/organization site repository, so it is configured for the domain 
 ## Notes
 
 - The CV page links to `public/files/Aristeidis_Papadopoulos_CV.pdf`.
-- The ASRU record did not include an actual paper PDF in the source repository, so the redesign does not link the old AcademicPages demo PDF.
+- The ASRU entry links to its local PDF at `public/files/ASRU_2025.pdf` and its IEEE publication record via DOI.
 - The talks collection in the supplied repository contains only AcademicPages example entries; those examples are intentionally not displayed.
 - Compatibility routes are static redirect pages. If a URL has meaningful external backlinks, test it after deployment.
 - The Astro build has not yet been verified in this environment; run `npm install` and `npm run build` before enabling the new deployment workflow.
