@@ -10,7 +10,7 @@ import { cvSections, skills, publications, teaching } from "@/data/content";
       <div class="hero-actions"><a class="button button-primary" href={site.cv} target="_blank" rel="noreferrer">Download CV (PDF) ↗</a></div>
     </header>
     {cvSections.map((section) => <section class="cv-section"><header class="sub-intro"><span class="eyebrow">Curriculum vitae</span><h2>{section.title}</h2></header>
-      <div class="content-list">{section.items.map((item) => <article class="content-card"><span class="content-meta">{item.period}</span><h3>{item.title}</h3><p>{item.organisation}</p>{item.description && <p>{item.description}</p>}</article>)}</div>
+      <div class="content-list">{section.items.map((item) => <article class="content-card"><span class="content-meta">{item.period}</span><h3>{item.title}</h3><p>{item.organisation}</p>{'description' in item && item.description && <p>{item.description}</p>}</article>)}</div>
     </section>)}
     <section class="cv-section"><header class="sub-intro"><span class="eyebrow">Expertise</span><h2>Skills</h2></header>
       <article class="content-card"><h3>Programming languages</h3><div class="tags">{skills.programming.map(x => <span class="tag">{x}</span>)}</div><h3>Technologies</h3><div class="tags">{skills.technologies.map(x => <span class="tag">{x}</span>)}</div><h3>Soft skills</h3><div class="tags">{skills.soft.map(x => <span class="tag">{x}</span>)}</div></article>
