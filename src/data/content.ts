@@ -21,20 +21,6 @@ export const researchAreas = [
 
 export const publications = [
   {
-    slug: "slt-2026",
-    legacy: "/publication/slt_2026",
-    year: "2026",
-    type: "Conference paper",
-    title: "Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition",
-    authors: "Rishabh Jain, Aristeidis Papadopoulos, Zhaofeng Lin and Naomi Harte",
-    venue: "IEEE Spoken Language Technology Workshop (SLT) 2026",
-    date: "2026",
-    summary: "Introduces Candor-LR, a large-scale conversational audio-visual speech recognition benchmark derived from natural dyadic videoconferences. Its 713.5-hour training set, 10.1-hour validation set and 60.1-hour test set support evaluation and training under realistic conversational conditions; experiments show visual cues contribute more than on scripted benchmarks and Candor-LR training improves cross-domain robustness.",
-    paper: "/files/CANDOR_LR.pdf",
-    localPaper: "/files/CANDOR_LR.pdf",
-    citation: "Jain R., Papadopoulos A., Lin Z. and Harte N. (2026). Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition."
-  },
-  {
     slug: "icpr-2026",
     legacy: "/publication/icpr_2026",
     year: "2026",
@@ -47,6 +33,20 @@ export const publications = [
     paper: "/files/Visg AV-HuBERT.pdf",
     localPaper: "/files/Visg AV-HuBERT.pdf",
     citation: "Papadopoulos A., Jain R. and Harte N. (2026). VisG AV-HuBERT: Viseme Guided AV-HuBERT."
+  },
+  {
+    slug: "slt-2026",
+    legacy: "/publication/slt_2026",
+    year: "2026",
+    type: "Conference paper",
+    title: "Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition",
+    authors: "Rishabh Jain, Aristeidis Papadopoulos, Zhaofeng Lin and Naomi Harte",
+    venue: "IEEE Spoken Language Technology Workshop (SLT) 2026",
+    date: "2026",
+    summary: "Introduces Candor-LR, a large-scale conversational audio-visual speech recognition benchmark derived from natural dyadic videoconferences. Its 713.5-hour training set, 10.1-hour validation set and 60.1-hour test set support evaluation and training under realistic conversational conditions; experiments show visual cues contribute more than on scripted benchmarks and Candor-LR training improves cross-domain robustness.",
+    paper: "/files/CANDOR_LR.pdf",
+    localPaper: "/files/CANDOR_LR.pdf",
+    citation: "Jain R., Papadopoulos A., Lin Z. and Harte N. (2026). Candor-LR: A Dyadic Conversational Dataset for Audio-Visual Speech Recognition."
   },
   {
     slug: "asru-2025",

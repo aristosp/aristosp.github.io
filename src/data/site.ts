@@ -11,7 +11,7 @@ export const site = {
   links: {
     github: "https://github.com/aristosp",
     linkedin: "https://www.linkedin.com/in/aristosp/",
-    scholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ",
+    scholar: "https://scholar.google.gr/citations?user=U8fIw0MAAAAJ&hl=el",
     orcid: "https://orcid.org/0009-0000-3783-2733"
   },
   profileImage: "/images/profile.jpeg",
